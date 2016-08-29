@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5899D117-545E-484F-A319-4291FEB2A00B}</ProjectGuid>
+    <ProjectGuid>{61A3ED7B-4743-4576-AF0D-00C760790149}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IHelloRemotingService</RootNamespace>
-    <AssemblyName>IHelloRemotingService</AssemblyName>
+    <RootNamespace>HelloRemotingService</RootNamespace>
+    <AssemblyName>HelloRemotingService</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IHelloRemotingService.cs" />
+    <Compile Include="HelloRemotingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IHelloRemotingService\IHelloRemotingService.csproj">
+      <Project>{5899d117-545e-484f-a319-4291feb2a00b}</Project>
+      <Name>IHelloRemotingService</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

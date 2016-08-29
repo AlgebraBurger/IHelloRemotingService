@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace IHelloRemotingService
 {
-    public class Class1
+    public interface IHelloRemotingService
     {
+        string GetMessage(string name);
     }
 }

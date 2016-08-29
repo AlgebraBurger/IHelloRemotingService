@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHelloRemotingService", "IHelloRemotingService\IHelloRemotingService.csproj", "{5899D117-545E-484F-A319-4291FEB2A00B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingService", "HelloRemotingService\HelloRemotingService.csproj", "{61A3ED7B-4743-4576-AF0D-00C760790149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotingServiceHost", "RemotingServiceHost\RemotingServiceHost.csproj", "{0F04ED9A-96DD-43E4-869D-00EB5644B7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRemotingServiceClient", "HelloRemotingServiceClient\HelloRemotingServiceClient.csproj", "{75115B22-1F8D-4C9C-B5EE-C6A1BD06819B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{5899D117-545E-484F-A319-4291FEB2A00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5899D117-545E-484F-A319-4291FEB2A00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5899D117-545E-484F-A319-4291FEB2A00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A3ED7B-4743-4576-AF0D-00C760790149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A3ED7B-4743-4576-AF0D-00C760790149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A3ED7B-4743-4576-AF0D-00C760790149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A3ED7B-4743-4576-AF0D-00C760790149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F04ED9A-96DD-43E4-869D-00EB5644B7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F04ED9A-96DD-43E4-869D-00EB5644B7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F04ED9A-96DD-43E4-869D-00EB5644B7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F04ED9A-96DD-43E4-869D-00EB5644B7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75115B22-1F8D-4C9C-B5EE-C6A1BD06819B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75115B22-1F8D-4C9C-B5EE-C6A1BD06819B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75115B22-1F8D-4C9C-B5EE-C6A1BD06819B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75115B22-1F8D-4C9C-B5EE-C6A1BD06819B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
